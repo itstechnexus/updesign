@@ -1,0 +1,278 @@
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Segoe UI;
+    overflow-x: hidden;
+}
+.cover{
+    background: #222 url("img/home.png");
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.cover-caption{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+
+}
+.cover-caption > .container{
+    height: 100vh;
+}
+.cover-caption > .container>.col-sm-12{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.services{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.services h2{
+    text-align: center;
+    color: #F44336;
+}
+.services > .container > .row{
+    margin-top: 3em;
+}
+.services > .container > .row >div{
+    padding: 40px;
+}
+@media screen and (min-width:768px){
+.services > .container > .row >div:not(:first-child){
+    border-left: 1px solid grey;
+    box-sizing: border-box;
+}
+}
+.services > .container > .row >div> p{
+    margin-top: 1em;
+}
+.markups, .markups >.container-fluid, .markups >.container-fluid > .row{
+    padding: 0;
+    margin: 0;
+
+}
+.markups> .container-fluid >.row >div{
+    margin-top: 10px;
+}
+.markups> .container-fluid >.row >div:first-child{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#cd1c85;
+    color: #fff;
+    border-top-right-radius: 20em;
+}
+.markups> .container-fluid >.row >div:first-child > ul{
+    font-size: 1.4em;
+    font-weight: 300;
+}
+.markups> .container-fluid >.row >div:last-child{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section hr{
+    margin-top: 20px;
+    width:300px;
+}
+.people, .people > .container-fluid, .people >.container-fluid > .row{
+    padding: 0;
+    margin: 0;
+}
+.people{
+    background: #dfdfdf;
+}
+.people >.container > .row> div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.people >.container > .row> div{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.people >.container > .row> div > .sub-content{
+    max-width: 300px;
+    margin-top:100px;
+}
+.people >.container > .row> div> img{
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+}
+.email-sub{
+    padding:50px;
+}
+.email-sub input{
+    width:100%;
+}
+.mission{
+    margin-top:100px;
+    text-align: justify;
+}
+.mission > .row> div:first-child{
+    text-align: left;
+}
+.mission h2{
+    text-align: center;
+    color: #F44336;
+}
+.news{
+    margin-top: 70px;
+}
+.news h2{
+    text-align: center;
+    color: #F44336;
+}
+.news .row{
+    margin-top: 50px;
+}
+#map {
+    height: 600px;
+    width: 100%;
+   }
+.contact-us{
+    margin-top: 100px;
+
+}
+.contact-us{
+
+}
+.contact-us h2{
+    text-align: center;
+    color: #F44336;
+    margin-bottom: 60px;
+}
+.contact-us form div{
+    margin-top: 20px;
+}
+.contact-us form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-us .info{
+    background: #efefef;
+    padding-top: 30px;
+    padding-left: 3rem;
+}
+.footer{
+    background: #222;
+    padding: 20px 0;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #fff;
+    opacity: .8;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+}
+.footer ul li{
+    min-width: 50px;
+    max-width: 100px;
+}
+.gerneral-purpose #bg-pic{
+    background: #222 url("img/home.png");
+    width: 100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+}
+.gerneral-purpose #bg-pic h1{
+    font-weight: 200;
+    color: #fff;
+}
+.breadcrumb{
+    width:100%;
+    border-radius: none;
+}
+#gp-content{
+    margin-top: 30px;
+    text-align: justify;
+}
+#gp-content img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gerneral-purpose ul li a{
+    color:grey;
+}
+.gerneral-purpose ul .active a{
+    color:#fff;
+}
+#gp-content .container-fluid .row di{
+    text-align: left;
+}
+#gp-content .table-striped tbody tr:nth-of-type(even){
+    background: #cd1c85;
+    color:#fff;
+}
+.contact-page{
+    width:100%;
+    height:300px;
+    background: url("img/bg.jpg");
+    background-size: cover;
+    display: flex;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+}
+.contact-page  .heading{
+    font-size: 3rem;
+}
+.contact-form{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-form  .row div{
+    margin-top: 20px;
+}
+#contact-form  .row div input,#contact-form  .row div select{
+    border-radius: 0;
+    border-color: #efefef;
+    background: #efefef;
+    height: 60px;
+
+}
+#contact-form .row div textarea{
+    border-color: #efefef;
+    background: #efefef;
+    height:400px;
+}
+#contact-form .row div button{
+    height:50px;
+    width: 150px;
+    border-radius: 45px;
+    background: #cd1c85;
+    border: none;
+}
+#contact-form .row div button:hover{
+    transform: scale(1.1) translateY(-10px);
+    
+}
+.contact-form input{
+    width:100%;
+}
